@@ -13,6 +13,14 @@
 		496DF78F24A3D21400B76CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496DF78E24A3D21400B76CD9 /* Assets.xcassets */; };
 		496DF79224A3D21400B76CD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496DF79124A3D21400B76CD9 /* Preview Assets.xcassets */; };
 		496DF79524A3D21400B76CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496DF79324A3D21400B76CD9 /* LaunchScreen.storyboard */; };
+		496DF79D24A4E68300B76CD9 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DF79C24A4E68300B76CD9 /* AppView.swift */; };
+		496DF79F24A4E69700B76CD9 /* Chimpion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DF79E24A4E69700B76CD9 /* Chimpion.swift */; };
+		496DF7A124A4E6A700B76CD9 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DF7A024A4E6A700B76CD9 /* PieChart.swift */; };
+		496DF7A324A4E6B900B76CD9 /* ChampionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DF7A224A4E6B900B76CD9 /* ChampionRow.swift */; };
+		496DF7A524A4E6C600B76CD9 /* ChampionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DF7A424A4E6C600B76CD9 /* ChampionData.swift */; };
+		496DF7A724A4E6D600B76CD9 /* ChampionEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DF7A624A4E6D600B76CD9 /* ChampionEditor.swift */; };
+		496DF7A924A4E6E500B76CD9 /* ChampionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DF7A824A4E6E500B76CD9 /* ChampionList.swift */; };
+		496DF7AD24A4F2CA00B76CD9 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DF7AC24A4F2CA00B76CD9 /* PieChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		496DF79124A3D21400B76CD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		496DF79424A3D21400B76CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		496DF79624A3D21400B76CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496DF79C24A4E68300B76CD9 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		496DF79E24A4E69700B76CD9 /* Chimpion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chimpion.swift; sourceTree = "<group>"; };
+		496DF7A024A4E6A700B76CD9 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		496DF7A224A4E6B900B76CD9 /* ChampionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionRow.swift; sourceTree = "<group>"; };
+		496DF7A424A4E6C600B76CD9 /* ChampionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionData.swift; sourceTree = "<group>"; };
+		496DF7A624A4E6D600B76CD9 /* ChampionEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionEditor.swift; sourceTree = "<group>"; };
+		496DF7A824A4E6E500B76CD9 /* ChampionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionList.swift; sourceTree = "<group>"; };
+		496DF7AC24A4F2CA00B76CD9 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +74,15 @@
 			children = (
 				496DF78824A3D21200B76CD9 /* AppDelegate.swift */,
 				496DF78A24A3D21200B76CD9 /* SceneDelegate.swift */,
+				496DF79C24A4E68300B76CD9 /* AppView.swift */,
 				496DF78C24A3D21200B76CD9 /* ContentView.swift */,
+				496DF79E24A4E69700B76CD9 /* Chimpion.swift */,
+				496DF7A024A4E6A700B76CD9 /* PieChart.swift */,
+				496DF7A224A4E6B900B76CD9 /* ChampionRow.swift */,
+				496DF7A424A4E6C600B76CD9 /* ChampionData.swift */,
+				496DF7A624A4E6D600B76CD9 /* ChampionEditor.swift */,
+				496DF7AC24A4F2CA00B76CD9 /* PieChartView.swift */,
+				496DF7A824A4E6E500B76CD9 /* ChampionList.swift */,
 				496DF78E24A3D21400B76CD9 /* Assets.xcassets */,
 				496DF79324A3D21400B76CD9 /* LaunchScreen.storyboard */,
 				496DF79624A3D21400B76CD9 /* Info.plist */,
@@ -146,8 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496DF79D24A4E68300B76CD9 /* AppView.swift in Sources */,
 				496DF78924A3D21200B76CD9 /* AppDelegate.swift in Sources */,
 				496DF78B24A3D21200B76CD9 /* SceneDelegate.swift in Sources */,
+				496DF7A124A4E6A700B76CD9 /* PieChart.swift in Sources */,
+				496DF7AD24A4F2CA00B76CD9 /* PieChartView.swift in Sources */,
+				496DF7A324A4E6B900B76CD9 /* ChampionRow.swift in Sources */,
+				496DF7A724A4E6D600B76CD9 /* ChampionEditor.swift in Sources */,
+				496DF79F24A4E69700B76CD9 /* Chimpion.swift in Sources */,
+				496DF7A524A4E6C600B76CD9 /* ChampionData.swift in Sources */,
+				496DF7A924A4E6E500B76CD9 /* ChampionList.swift in Sources */,
 				496DF78D24A3D21200B76CD9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
